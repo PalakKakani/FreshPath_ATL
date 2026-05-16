@@ -35,12 +35,12 @@ All agents live in `src/lib/agents.functions.ts` and run as TanStack Start **ser
 
 ## Screenshots 
 
-![FreshPath ATL](FreshpathATL/1.png)
-![FreshPath ATL](FreshpathATL/2.png)
-![FreshPath ATL](FreshpathATL/3.png)
-![FreshPath ATL](FreshpathATL/4.png)
-![FreshPath ATL](FreshpathATL/5.png)
-![FreshPath ATL](FreshpathATL/6.png)
-![FreshPath ATL](FreshpathATL/7.png)
-![FreshPath ATL](FreshpathATL/8.png)
+![FreshPath ATL](FreshPathATL/1.png)
+![FreshPath ATL](FreshPathATL/2.png)
+![FreshPath ATL](FreshPathATL/3.png)
+![FreshPath ATL](FreshPathATL/4.png)
+![FreshPath ATL](FreshPathATL/5.png)
+![FreshPath ATL](FreshPathATL/6.png)
+![FreshPath ATL](FreshPathATL/7.png)
+![FreshPath ATL](FreshPathATL/8.png)
 
