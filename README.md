@@ -35,7 +35,11 @@ All agents live in `src/lib/agents.functions.ts` and run as TanStack Start **ser
 
 ## Screenshots 
 
+## Home 
+
 ![FreshPath ATL](FreshPathATL/1.png)
+
+## Plan my week
 
 ![FreshPath ATL](FreshPathATL/2.png)
 
@@ -43,11 +47,17 @@ All agents live in `src/lib/agents.functions.ts` and run as TanStack Start **ser
 
 ![FreshPath ATL](FreshPathATL/4.png)
 
+## Find food near me
+
 ![FreshPath ATL](FreshPathATL/5.png)
 
 ![FreshPath ATL](FreshPathATL/6.png)
 
+## Snap a meal
+
 ![FreshPath ATL](FreshPathATL/7.png)
+
+## Get Involved
 
 ![FreshPath ATL](FreshPathATL/8.png)
 
