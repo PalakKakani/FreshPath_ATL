@@ -9,7 +9,7 @@
 
 ## 🎯 The Problem
 
-We combined **two** Food A.I. Hackathon problem statements:
+Combined **two** Food A.I. Hackathon problem statements:
 
 1. **Eating well costs more than it should.** Families on a budget are forced to choose between healthy and affordable, and the tools that exist don't bridge the gap.
 2. **Atlanta food access.** 500,000+ Atlantans live more than a mile from a full-service grocery store. Families in West End, Bankhead, Vine City, Mechanicsville, and parts of South DeKalb pay up to **$3.50 more per meal** for the same staples found in better-stocked zip codes.
