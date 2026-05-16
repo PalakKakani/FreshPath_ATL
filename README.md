@@ -5,8 +5,6 @@
 
 🌐 **Live app:** https://freshpathatl.lovable.app
 
-![FreshPath ATL — Home](docs/screenshot-home.png)
-
 ---
 
 ## 🎯 The Problem
@@ -34,4 +32,15 @@ FreshPath bridges that gap with one app that plans, locates, and coaches — usi
 ## 🤖 Multi-Agent Architecture (RAG pipeline)
 
 All agents live in `src/lib/agents.functions.ts` and run as TanStack Start **server functions** on Cloudflare Workers. The LLM is reached through the **Lovable AI Gateway** (`src/lib/ai.ts`).
+
+## Screenshots 
+
+![FreshPath ATL](docs/1.png)
+![FreshPath ATL](docs/2.png)
+![FreshPath ATL](docs/3.png)
+![FreshPath ATL](docs/4.png)
+![FreshPath ATL](docs/5.png)
+![FreshPath ATL](docs/6.png)
+![FreshPath ATL](docs/7.png)
+![FreshPath ATL](docs/8.png)
 
