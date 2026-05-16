@@ -42,7 +42,7 @@ User input ─▶ ① Analyzer ─▶ ② Fetcher (RAG) ─▶ ③ Planner ─�
 | # | Agent | Model | Role |
 |---|-------|-------|------|
 | 1 | **Situation Analyzer** | `google/gemini-3-flash-preview` | Parses free-text family request → strict JSON `{location, budget, familySize, dietaryNeeds, ingredients, notes}`. |
-| 2 | **Journey Foods Fetcher** | — (RAG, no LLM) | Calls `lookupIngredients()` which hits the **Journey Foods API** first, then falls back to a curated Atlanta-priced corpus of 14 staples. This is the **retrieval** step of the RAG. |
+| 2 | **Journey Foods Fetcher** | (RAG, no LLM) | Calls `lookupIngredients()` which hits the **Journey Foods API** first, then falls back to a curated Atlanta-priced corpus of 14 staples. This is the **retrieval** step of the RAG. |
 | 3 | **Meal Planner** | `google/gemini-3-flash-preview` | Grounded on the fetched ingredient intel → returns a 5-meal weekly plan, grocery list, swaps, and a budget summary. |
 | 4 | **Food Advisor** | `google/gemini-3-flash-preview` | Chat agent with the current profile + plan in context. Answers any food/nutrition/budget question. |
 | 5 | **Meal Vision** | `google/gemini-2.5-flash` | Multimodal — sees a meal photo, returns macros, health score, and cheap Atlanta fixes. |
@@ -53,7 +53,7 @@ User input ─▶ ① Analyzer ─▶ ② Fetcher (RAG) ─▶ ③ Planner ─�
 
 ## 🧠 The LLM 
 
-Used **Google Gemini** models, but we **don't call Google directly**. Every model call goes through the **Lovable AI Gateway** (`https://ai.gateway.lovable.dev/v1/chat/completions`), which handles the API key, billing, and rate limits for us. Our code never sees a Google API key.
+Used **Google Gemini** models, but we **don't call Google directly**. Every model call goes through the **Lovable AI Gateway**, which handles the API key, billing, and rate limits for us. Our code never sees a Google API key.
 
 Two models, picked on purpose:
 
